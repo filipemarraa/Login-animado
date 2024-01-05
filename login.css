@@ -208,3 +208,54 @@ footer a:hover {
     height: 24px;
     vertical-align: middle;
 }
+
+/* Estilos existentes */
+
+/* Adições para RESPONSIVIDADE */
+@media (max-width: 768px) {
+    header {
+        padding: 5px 10px; /* Menos padding no header */
+    }
+
+    #logoEmpresa {
+        height: 100px; /* Menor logo em telas menores */
+    }
+
+    .login {
+        width: 95%; /* Formulário mais largo em telas menores */
+        margin: 20px; /* Adicionar alguma margem */
+    }
+
+    .box-user button {
+        right: 5px; /* Ajustar a posição do botão de mostrar senha */
+    }
+
+    footer {
+        padding: 10px; /* Menos padding no footer */
+    }
+
+    .icon-link img {
+        width: 20px; /* Ícones menores no footer */
+        height: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 5px; /* Ainda menos padding no header para telas muito pequenas */
+    }
+
+    #logoEmpresa {
+        height: 80px; /* Tamanho ainda menor da logo para telas muito pequenas */
+    }
+
+    .login {
+        width: 100%; /* O formulário ocupa toda a largura em telas muito pequenas */
+        margin: 10px 0; /* Menos margem */
+    }
+
+    .btn {
+        padding: 10px 15px; /* Ajustar o padding do botão */
+        font-size: 12px; /* Tamanho de fonte menor para o botão */
+    }
+}
