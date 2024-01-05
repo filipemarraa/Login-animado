@@ -15,11 +15,12 @@
       <label>Usuário</label>
     </div>
     <div class="box-user">
-        <input type="password" name="" required>
+        <input type="password" id="senha" name="senha" required>
         <label>Senha</label>
+        <button type="button" id="mostrarSenha" onclick="toggleSenha()">👁️</button>
     </div>
     <div>
-      <a href="#" class="forget">Esqueceu a senha?</a>
+      <a href="#" class="forget" id="esqueceuSenha">Esqueceu a senha?</a>
     </div>
     <a href="#" class="btn">
         <span></span>
@@ -29,6 +30,16 @@
         Entrar
     </a>
   </form>
+
+
+  <footer>
+    <p><a href="https://filipejacobsonmarra.com.br" target="_blank" id="meuNome">Produzido por Filipe Jacobson Marra</a></p>
+    <a href="https://github.com/filipemarraa" target="_blank" class="icon-link"><img src="images/github.png" alt="GitHub"></a>
+    <a href="https://linkedin.com/in/filipemarra" target="_blank" class="icon-link"><img src="images/linke.png" alt="LinkedIn"></a>
+</footer>
+
+
+  <script src="login.js"></script>
 
 </body>
 </html>
